@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+
+# IDE Configuration
+.vscode/
+*.user
+*.code-workspace
+
+# Binaries
+build/
+
+# Auto generated files
+qwlanapp_global.h
+Info.plist
+infos.rc

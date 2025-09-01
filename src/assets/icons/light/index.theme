@@ -1,0 +1,27 @@
+[Icon Theme]
+Name=Light
+Comment=Light icons theme
+
+# Directory list
+Directories=actions/512,actions/256,status/512
+
+[actions/512]
+Size=512
+Context=Actions
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[actions/256]
+Size=256
+Context=Actions
+MinSize=16
+MaxSize=256
+Type=Scalable
+
+[status/512]
+Size=512
+Context=Actions
+MinSize=16
+MaxSize=512
+Type=Scalable

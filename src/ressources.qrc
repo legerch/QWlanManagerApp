@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/logo">
+        <file alias="main">assets/logos/wifi-router.png</file>
+    </qresource>
+    <qresource prefix="/docs">
+        <file alias="changelog">../CHANGELOG.md</file>
+        <file alias="license">../LICENSE.md</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>assets/icons/light/index.theme</file>
+
+        <file>assets/icons/light/actions/256/hide.png</file>
+        <file>assets/icons/light/actions/256/show.png</file>
+
+        <file>assets/icons/light/actions/512/cancel.png</file>
+        <file>assets/icons/light/actions/512/click.png</file>
+        <file>assets/icons/light/actions/512/edit.png</file>
+        <file>assets/icons/light/actions/512/refresh.png</file>
+        <file>assets/icons/light/actions/512/stopwatch.png</file>
+
+        <file>assets/icons/light/status/512/question.png</file>
+        <file>assets/icons/light/status/512/success.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>assets/icons/dark/index.theme</file>
+
+        <file>assets/icons/dark/actions/256/hide.png</file>
+        <file>assets/icons/dark/actions/256/show.png</file>
+
+        <file>assets/icons/dark/actions/512/cancel.png</file>
+        <file>assets/icons/dark/actions/512/click.png</file>
+        <file>assets/icons/dark/actions/512/edit.png</file>
+        <file>assets/icons/dark/actions/512/refresh.png</file>
+        <file>assets/icons/dark/actions/512/stopwatch.png</file>
+
+        <file>assets/icons/dark/status/512/question.png</file>
+        <file>assets/icons/dark/status/512/success.png</file>
+    </qresource>
+</RCC>
