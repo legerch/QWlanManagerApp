@@ -22,14 +22,14 @@ int main(int argc, char *argv[])
 {
     /* Initialize logs */
     QLogger::QLoggerFactory::instance().initLoggerRotating(QFileInfo(APP_LOG_FILE), APP_LOG_NB_FILES, APP_LOG_SIZE, APP_LOG_ENABLE_CONSOLE);
-    qInfo("Application %s is started [version: %s]", APPNAME_INFO_NAME, APPNAME_VERSION_STR);
+    qInfo("Application %s is started [version: %s]", QWLANAPP_INFO_ID, QWLANAPP_VERSION_STR);
 
     /* Set application properties */
     QApplication app(argc, argv);
 
     app.setWindowIcon(QIcon(":/logo/main"));
-    app.setApplicationName(APPNAME_INFO_NAME);
-    app.setApplicationVersion(APPNAME_VERSION_STR);
+    app.setApplicationName(QWLANAPP_INFO_ID);
+    app.setApplicationVersion(QWLANAPP_VERSION_STR);
     app.addLibraryPath(":/plugins/imageformats");
 
     /* Manage theme */

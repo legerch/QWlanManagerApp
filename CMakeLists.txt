@@ -20,6 +20,7 @@ set(QWLANMANAGER_WINDOWS_COMPAT_PREWIN10 OFF)
 
 ## Add subdirectories
 add_subdirectory(src)
-#add_subdirectory(deps/qlogger)
-#add_subdirectory(deps/qwlanmanager)
-#add_subdirectory(deps/toolboxqt)
+
+add_subdirectory(deps/qlogger)
+add_subdirectory(deps/qwlanmanager)
+add_subdirectory(deps/toolboxqt)

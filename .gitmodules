@@ -1,0 +1,9 @@
+[submodule "deps/qwlanmanager"]
+	path = deps/qwlanmanager
+	url = git@github.com:legerch/QWlanManager.git
+[submodule "deps/qlogger"]
+	path = deps/qlogger
+	url = git@github.com:legerch/QLogger.git
+[submodule "deps/toolboxqt"]
+	path = deps/toolboxqt
+	url = git@github.com:legerch/ToolBoxQt.git

@@ -107,7 +107,10 @@ set(PROJECT_LINKING_DIR
 ### Linking libs
 set(PROJECT_LINKING_LIB
     ${PROJECT_QT_PACKAGES}
-    # Example: nlohmann_json::nlohmann_json
+
+    qlogger
+    qwlanmanager
+    toolboxqt
 )
 
 ## Set application files
