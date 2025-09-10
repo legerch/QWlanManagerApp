@@ -116,12 +116,14 @@ set(PROJECT_LINKING_LIB
 ## Set application files
 set(PROJECT_HEADERS
     ui/widgets/mainwindow.h
+    ui/widgets/menu/menubar.h
 )
 
 set(PROJECT_SOURCES
     main.cpp
     
     ui/widgets/mainwindow.cpp
+    ui/widgets/menu/menubar.cpp
 )
 
 set(PROJECT_UI_WIDGETS
