@@ -152,8 +152,8 @@ void MainWindow::uiDisplayBoxesInterfaces()
     ui->widget_listInterfaces->setLayout(vLayout);
 
     /* Manage event */
-    connect(btnGroup, &QButtonGroup::idClicked, this, [this](int index){
-        const QUuid idInterface = m_mapBtnIdIface.value(index);
+    connect(btnGroup, &QButtonGroup::idClicked, this, [this](int indexBtn){
+        const QUuid idInterface = m_mapBtnIdIface.value(indexBtn);
         m_selectIface = m_wlanManager->getInterface(idInterface);
 
         uiDisplayBoxesNetworks();
@@ -209,8 +209,8 @@ void MainWindow::uiDisplayBoxesNetworks()
     ui->widget_listNetworks->setLayout(vLayout);
 
     /* Manage event */
-    connect(m_btnGroupNet, &QButtonGroup::idClicked, this, [this](int index){
-        uiUpdateSelectedNetwork(m_mapBtnIdNet.value(index), index);
+    connect(m_btnGroupNet, &QButtonGroup::idClicked, this, [this](int indexBtn){
+        uiUpdateSelectedNetwork(m_mapBtnIdNet.value(indexBtn), indexBtn);
     });
 }
 
