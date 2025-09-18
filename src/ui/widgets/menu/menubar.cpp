@@ -44,8 +44,8 @@ void MenuBar::showHelpAbout()
     /* Set informations */
     // Set app main informations
     dialogAbout->addSectionAbout("This application is used to manage networks",
-        tbq::RichLink(QUrl("https://github.com/BOREA-DENTAL/WlanManager-application")),
-        tbq::RichLink(QUrl("https://github.com/BOREA-DENTAL/WlanManager-application/issues"))
+        tbq::RichLink(QUrl("https://github.com/legerch/QWlanManagerApp")),
+        tbq::RichLink(QUrl("https://github.com/legerch/QWlanManagerApp/issues"))
     );
 
     // Set dependency section
