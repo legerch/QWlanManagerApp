@@ -4,11 +4,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog] and this project adheres to [Semantic Versioning].
 
 ## [next] - 1.0.0
-Creation of the application which allow to:
+Creation of the application which allow to perform all operations supported by [QWlanManager library][repo-qwlanmanger]:
+- List available network interfaces
+- Scan available networks
+- Connect to a unknown network (creation of a profile)
+- Connect to a known network (use existing profile)
+- Disconnect from a network
+- Manage permissions
+  - Retrieve current status
+  - Allow to set it
+- Manage events (which can be fired by other apps or even by the OS itself):
+  - Interface network being added or removed
+  - Scan performed
+  - Connection or disconnection to a network performed
+  - Quality signal of a connected network changed
+  - Permissions has been changed
 
 <!-- Links -->
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
+
+[repo-qwlanmanger]: https://github.com/legerch/QWlanManager
 
 <!-- Versions -->
 [next]: https://github.com/Author/Repository/compare/v0.0.2...HEAD
