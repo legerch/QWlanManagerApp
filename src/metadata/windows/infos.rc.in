@@ -9,7 +9,7 @@
 
 #include <windows.h>
 
-#define IS_LIBRARY  1
+#define IS_LIBRARY  0
 
 /*****************************/
 /* Manage configuration      */

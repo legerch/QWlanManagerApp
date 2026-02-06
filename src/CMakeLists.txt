@@ -73,7 +73,7 @@ endif()
 set(PROJECT_DIR_ROOT                    "${PROJECT_SOURCE_DIR}")
 set(PROJECT_DIR_BASE                    "${PROJECT_DIR_ROOT}/base")
 set(PROJECT_DIR_META                    "${PROJECT_DIR_ROOT}/metadata")
-set(PROJECT_DIR_LOGO                    "${PROJECT_DIR_ROOT}/assets/logo")
+set(PROJECT_DIR_LOGO                    "${PROJECT_DIR_ROOT}/assets/logos")
 
 set(PROJECT_FILE_GLOBAL                 "${PROJECT_DIR_BASE}/qwlanapp_global.h")
 
