@@ -552,7 +552,7 @@ void MainWindow::on_checkBox_managerOptAllowAdminReqs_checkStateChanged(const Qt
     m_wlanManager->setOptions(opts);
 
     /* Display result */
-    const QString strMsg = QString("Set options for manager [opts: %1]").arg(opts);
+    const QString strMsg = QString("Set options for manager [opts: %1]").arg(qwm::wlanOptionsToString(opts));
     uiDisplayMsgInfos(strMsg);
 }
 
@@ -604,9 +604,9 @@ void MainWindow::on_checkBox_interfaceOptRequestQueue_checkStateChanged(const Qt
     m_selectIface.setOptions(opts);
 
     /* Display result */
-    const QString strMsg = QString("Set options for interface '%1' [opts: %2]")
-                         .arg(m_selectIface.getName())
-                         .arg(opts
+    const QString strMsg = QString("Set options for interface '%1' [opts: %2]").arg(
+        m_selectIface.getName(),
+        qwm::ifaceOptionsToString(opts)
     );
 
     uiDisplayMsgInfos(strMsg);
