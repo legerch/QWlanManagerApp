@@ -211,7 +211,7 @@
              <number>100000</number>
             </property>
             <property name="singleStep">
-             <number>60</number>
+             <number>500</number>
             </property>
            </widget>
           </item>
@@ -236,7 +236,7 @@
              </font>
             </property>
             <property name="text">
-             <string>Delay (secs)</string>
+             <string>Delay (ms)</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignmentFlag::AlignCenter</set>
